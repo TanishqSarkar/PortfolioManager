@@ -135,8 +135,7 @@ nse-portfolio/
         └── AddStockModal.tsx
 ```
 
-## What's deliberately NOT here yet (future phases)
-
+## What's deliberately NOT here yet
 - A real NSE-compatible market data API integration (currently mock prices
   in `src/services/marketDataService.ts`)
 - Server-side functions (Supabase Edge Functions) for secure API key handling
