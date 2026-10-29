@@ -50,18 +50,6 @@ users to confirm their email before they can sign in. For quick local testing,
 you can turn this off in **Authentication → Providers → Email → "Confirm email"**.
 Leave it on if you want the app to behave like a real production app would.
 
-## Prerequisites
-
-You said you already have **Node.js** and **VS Code** installed. Confirm Node
-is on your PATH by opening a terminal (PowerShell or VS Code's terminal) and running:
-
-```
-node -v
-npm -v
-```
-
-You should see version numbers (Node 18+ is recommended). If not, install Node
-from https://nodejs.org first.
 
 ## Getting the code into VS Code
 
@@ -153,16 +141,3 @@ nse-portfolio/
   in `src/services/marketDataService.ts`)
 - Server-side functions (Supabase Edge Functions) for secure API key handling
 - Deployment configuration
-
-These come in later phases once you're ready, per the original specification.
-
-## Building for production (optional, later)
-
-When you eventually want a production build:
-
-```
-npm run build
-```
-
-This outputs static files to a `dist/` folder, which is what you'd deploy
-once hosting is set up (e.g. Vercel, Netlify) in a later phase.
